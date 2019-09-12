@@ -1,0 +1,27 @@
+body {
+    background: #F9F5F5;
+}
+table {
+    background: #FFF;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    border: 2px solid lightgrey;
+    table-layout: fixed;
+}
+thead {
+    background: red;
+    color: white;
+}
+tr {
+    border: 1px solid lightgrey;
+}
+th {
+    padding: 8px;
+}
+tfoot {
+    background: #F9F9F9;
+    font-weight: bold;
+}
+td {
+    padding: 10px;
+}
