@@ -1,0 +1,15 @@
+body{
+background: hotpink;
+}
+h1{
+font: larger;
+color: red;
+}
+p{
+    font-family: sans-serif;
+    padding: 1px;
+    border: 1px bold black;
+}
+img{
+    width: 300px;
+}

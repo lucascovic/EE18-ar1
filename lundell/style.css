@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto+Mono&display=swap');
+body{
+background: url("./bilder/skane.jpg")
+}
+h1{
+  padding: 5px;
+  font: 40px serif white;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 100px;
+}
+p{
+font-size: 12px;
+font-family: 'Roboto Mono';
+color: rgb(233, 233, 233);
+font-style: italic;
+margin-left: 100px;
+}
+img{
+width: 100px;
+margin-left: 100px;
+}

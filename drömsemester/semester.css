@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+body {
+    background: url("./bilder/sean-o-KMn4VEeEPR8-unsplash.jpg");
+    background-size: cover;
+}
+h1 {
+    margin-left: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 75px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h2 {
+    margin-left: 100px;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+p {
+    margin-left: 1200px;
+    margin-top: 300px;
+    background-color: rgb(238, 99, 238);
+    border: 3px solid #fff;
+    width: 140px;
+    font-size: 30px;
+    padding: 20px 40px 20px 60px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-transform: uppercase;
+    
+
+}

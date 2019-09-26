@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto+Mono&display=swap');
+body{
+background: url("./bilder/skane.jpg")
+}
+h1{
+  padding: 5px;
+  font: 40px serif white;
+  color: rgb(238, 255, 0);
+  text-transform: uppercase;
+  margin-left: 100px;
+  font-style: italic;
+  
+}
+p{
+font-size: 12px;
+font-family: 'Roboto Mono';
+color: rgb(238, 255, 0);
+font-style: italic;
+margin-left: 100px;
+background-color: rgba(11, 109, 201, 0.767);
+width: 450px;
+border: 2px solid rgba(223, 155, 28, 0.885);
+border-radius: 5px;
+padding: 15px;
+}
+img{
+width: 100px;
+margin-left: 100px; 
+}
