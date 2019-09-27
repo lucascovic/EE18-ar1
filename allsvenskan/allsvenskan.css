@@ -1,0 +1,42 @@
+body{
+    background: #000;
+}
+table{
+    font: 14px sans-serif;
+    font-weight: bold;
+    width: 1000px;
+    background: #fff;
+    border-collapse: collapse;
+    
+}
+caption{
+    background: #12326E;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+}
+thead{
+    background: #12326E;
+    color: #fff;
+    text-transform: uppercase;
+}
+th{
+padding: 10px;
+}
+td{
+    text-align: center;
+    padding: 5px;
+}
+img{
+width: 20px;
+}
+.ledare {
+background: #E73088;
+color: #fff
+}
+.varannan {
+    background: #F5F5F5;
+}
+.vänster {
+    text-align: left;
+}
