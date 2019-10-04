@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto+Slab&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+/* Utseende på sidan */
+body{
+background: url("./bilder/bakgrund.jpg");
+background-size: cover;
+background-attachment: fixed;
+}
+.kontainer{
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    margin: auto;
+    width: 800px;
+    background-color: #fff;
+    padding: 50px;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 60px;
+    color: #000;
+}
+.intro{
+text-align: center;
+}
+/* Utseende på rutorna */
+.ruta{
+    margin-top: 50px;
+    background: #000;
+}
+.bildtext{
+    margin-top: 30px;
+}
+img{
+    width: 300px;
+}
+/* Utseende på sidfot */
+.kalla{
+
+}
