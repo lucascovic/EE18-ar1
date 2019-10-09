@@ -61,6 +61,11 @@ img{
     padding: 10px;
 }
 /* Utseende på sidfot */
+.kalla{
+margin: 20p 0;
+font-style: italic;
+color: #000;
+}
 .vänster{
 float: left;
 margin-right: 10px;
