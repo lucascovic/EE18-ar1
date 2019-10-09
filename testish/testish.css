@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+/* Utseende på sidan */
+body {
+    background: url("./bilder/1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* Utseende på tabellen */
+table {
+    width: 700px;
+    font-size: 24px;
+    border-collapse: collapse;
+    font-weight: bold;
+    background-color: #fff;
+    margin: 200px 0 0 700px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px;
+    font-style: italic;
+}
+caption {
+    font-size: 40px;
+    height: 50px;
+    background-color: #fff;
+    border: solid 1px #000;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    
+}
+th {
+    font-size: 35px;
+    border: solid 2px #000;
+}
+td {
+    text-align: center;
+    padding: 5px;
+    border: solid 2px #000;
+}
+/* Färger för olika sektioner */
+.bla{
+    background-color: #45c1e086;
+}
+.rod{
+    background-color: rgba(224, 45, 39, 0.404);
+}
+.lila{
+    background-color: rgba(201, 56, 230, 0.295);
+}
+.gul{
+    background-color: rgb(231, 235, 41);
+}
