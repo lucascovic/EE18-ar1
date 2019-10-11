@@ -13,20 +13,20 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 /* CSS clearfix mot box kollaps */
-.clearfix:after { 
-    content: "."; 
-    visibility: hidden; 
-    display: block; 
-    height: 0; 
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
     clear: both;
- }
-/* Utseende på sidan */
-body{
-background: url("./bilder/bakgrund.jpg");
-background-size: cover;
-background-attachment: fixed;
 }
-.kontainer{
+/* Utseende på sidan */
+body {
+    background: url("./bilder/bakgrund.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.kontainer {
     font-family: 'Roboto Slab', serif;
     color: rgb(255, 255, 255);
     margin: auto;
@@ -34,50 +34,50 @@ background-attachment: fixed;
     background-color: rgba(255, 255, 255, 0.671);
     padding: 50px;
 }
-h1{
+h1 {
     font-family: 'Press Start 2P', cursive;
     text-align: center;
     font-size: 60px;
     color: #000;
 }
-.intro{
-text-align: center;
+.intro {
+    text-align: center;
 }
 /* Utseende på rutorna */
-.ruta{
+.ruta {
     margin-top: 50px;
     border-radius: 10px;
     padding: 50px;
     background: #000;
     color: #fff;
-    
+
 }
-.bildtext{
+.bildtext {
     margin-top: 30px;
 }
-img{
+img {
     width: 300px;
     background: #fff;
     padding: 10px;
 }
 /* Utseende på sidfot */
-.kalla{
-margin: 20p 0;
-font-style: italic;
-color: #000;
+.kalla {
+    margin: 20p 0;
+    font-style: italic;
+    color: #000;
 }
-.vänster{
-float: left;
-margin-right: 10px;
+.vänster {
+    float: left;
+    margin-right: 10px;
 }
-.höger{
-float: right;
-margin-left: 10px;
+.höger {
+    float: right;
+    margin-left: 10px;
 }
-.texthöger{
-text-align: right
+.texthöger {
+    text-align: right
 }
-hr{
+hr {
     clear: both;
     visibility: hidden;
 }
