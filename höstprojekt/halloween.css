@@ -1,10 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
-#363B3F 
-#D94E49 
-#EE7867 
-#F2C359 
-#E2B44E
-#494F55
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Walter+Turncoat&display=swap');
+/* #363B3F #D94E49 #EE7867 #F2C359 #E2B44E #494F55 */
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -16,10 +11,13 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
+/* Utseende på  mainsidan */
 .main {
     background: url("./bilder/background.jpg");
     background-attachment: fixed;
+    font-family: 'Walter Turncoat', cursive;
 }
+/* Utseende på innehållet */
 h1 {
     background: #363B3F;
     color: #D94E49;
@@ -43,10 +41,10 @@ h1 {
     box-shadow: 0 0 25px #EE7867;
     background: #E2B44E;
     border-radius: 8px;
-    
+
 }
 .kontainer .box img {
-    width: 400px;
+    width: 100%;
     margin-bottom: 10px;
     border-radius: 8px;
 }
@@ -62,23 +60,52 @@ h1 {
     font-weight: bold;
     color: #EA5F21;
 }
-
-.sida{
-    background: #EE7867 ;
+/* Utseende på andra sidorna */
+.sida {
+    background: url("./bilder/background.jpg");
 }
-.kontainer2{
-    width: 1000px;
+/* Utseende på innehållet */
+.kontainer2 {
+    text-align: center;
+    width: 800px;
     background: #363B3F;
-    margin: 0 auto;
-}
-.kontainer2 .boxsida{
-
-}
-.kontainer2 .boxsida img{
-    width: 400px;
-    margin-bottom: 10px;
+    margin: 80px auto;
+    padding: 15px;
     border-radius: 8px;
+    box-shadow: 0 0 47px #D94E49;
 }
-.kontainer2 .boxsida p{
+.kontainer2 .boxsida {
 
+}
+.kontainer2 .boxsida h1 {
+    background: #363B3F;
+    color: #D94E49;
+    text-align: center;
+    width: 220px;
+    margin: 20px auto;
+    border-radius: 8px;
+    padding: 7px;
+    font-style: italic;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-transform: uppercase;
+    box-shadow: 0 0 25px #E2B44E;
+}
+.kontainer2 .boxsida h1 a{
+    text-decoration: none;
+    color: #D94E49;
+}
+.kontainer2 .boxsida img {
+    width: 400px;
+    margin: 40px 0 25px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 25px #E2B44E;
+}
+.kontainer2 .boxsida p {
+    padding: 8px;
+    background: #F2C359;
+    width: 500px;
+    margin: 10px auto 25px auto;
+    border-radius: 7px;
+    box-shadow: 0 0 25px #E2B44E;
+    font-family: 'Walter Turncoat', cursive;
 }
