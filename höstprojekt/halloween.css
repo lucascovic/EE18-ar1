@@ -88,7 +88,9 @@ h1 {
     font-style: italic;
     font-family: 'Gloria Hallelujah', cursive;
     text-transform: uppercase;
-    box-shadow: 0 0 25px #E2B44E;
+    box-shadow: 0 0 20px #E2B44E;
+    text-decoration: underline;
+    text-shadow: 1px 1px 15px #EE7867;
 }
 .kontainer2 .boxsida h1 a{
     text-decoration: none;
@@ -106,6 +108,8 @@ h1 {
     width: 500px;
     margin: 10px auto 25px auto;
     border-radius: 7px;
-    box-shadow: 0 0 25px #E2B44E;
+    box-shadow: 0 0 15px #E2B44E;
     font-family: 'Walter Turncoat', cursive;
+    color: #EE7867;
+    font-style: italic;
 }
