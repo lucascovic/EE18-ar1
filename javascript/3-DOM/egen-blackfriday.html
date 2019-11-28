@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Black Week</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <img class="animated dold" src="../bilder/MGN_1280x720_81119C00-RSYOE.jpg" alt="Black Friday">
+
+        <button onclick="visaMer()">Klicka För Att Se Rean!</button>
+    </div>
+    <script>
+        /* Element för knapp */
+        const elementB1 = document.querySelector("button")
+        /* Element för bild */
+        const elementImg = document.querySelector("img");
+        function visaMer() {
+            /* Fördröjning */
+            setTimeout(visaBild, 3000)
+        }
+
+        function visaBild() {
+            elementImg.classList.remove("dold")
+            elementImg.classList.add("fadeIn");
+            setTimeout(wobble, 5000);
+        }
+
+        function wobble() {
+            elementImg.classList.add("wobble"); 
+            setTimeout(fadeOut, 4000)
+        }
+        function fadeOut(){
+            elementImg.classList.add("fadeOut");
+        }
+
+        
+       
+
+        
+        
+   
+    </script>
+</body>
+</html>
