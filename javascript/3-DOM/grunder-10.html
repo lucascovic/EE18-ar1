@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arbeta med DOM</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Infoga text i sidan</h1>
+        <p id="p1">Hemligt mobilnr</p>
+        <p id="p2">Hemlig Adress</p>
+        <div id="avatar">Hemlig Avatarbild</div>
+        <button onmousedown="visaNr()" onmouseup="döljNr()">Visa mobilnr</button>
+        <button onmousedown="visaAdress()" onmouseup="döljAdress()">Visa Adress</button>
+        <button onclick="visaBild()">Visa Avatarbilden</button>
+        
+    </div>
+    <script>
+        /* Hitta element jag jobbar på */
+        const elementP = document.querySelector("#p1");
+        const elementP2 = document.querySelector("#p2");
+        const elementAvatar = document.querySelector("#avatar");
+
+        function visaMobilnr() {
+            /* Infoga mobilnr i p-elementet */
+            elementP.textContent = "0704711212"
+        }
+        function visaNr() {
+            elementP.textContent = "0704711212" 
+        }
+        function döljNr(){
+            elementP.textContent = "Hemligt mobilnr"
+        }
+        function visaAdress(){
+            elementP2.textContent = "Travgatan 28"
+        }
+        function döljAdress(){
+            elementP2.textContent = "Hemlig adress"
+        }
+        function visaBild(){
+            elementAvatar.innerHTML = "<img src=\"../bilder/avatar.jpeg\" alt=\"Bild på en avatar\">"
+        }
+    </script>
+</body>
+</html>

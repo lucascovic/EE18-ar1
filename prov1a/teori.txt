@@ -1,0 +1,6 @@
+Tre exempel på bra praxis är 
+1. att alltid göra html, css och mappen för bilder. 
+2. Alltid skriva HTML5 i html filen. 
+3. Skriva reset i css.
+
+Man kan kontrollera sin kod genom att dubbel kolla allting och indentera sin kod så att den är lätt att läsa.

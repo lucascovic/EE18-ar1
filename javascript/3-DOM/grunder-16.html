@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arbeta med DOM</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Omvandla från Celius till Farenheit</h1>
+
+        <h2>Input</h2>
+        <label>Ange temperatur i Celcius</label>
+        <input type="text">
+        <button onclick="omvandla()">Skicka</button>
+        <h2>Output</h2>
+        <p>Resultat</p>
+        <meter id="fuel" min="0" max="200" low="50" high="150" optimum="100" value="0"></meter>
+    </div>
+    <script>
+        /* Element vi ska arbeta med */
+        const elementInput = document.querySelector("input")
+        const elementP = document.querySelector("p")
+        const elementMeter = document.querySelector("meter")
+
+
+
+        function omvandla() {
+            /* Läs in temperatur till Celsius */
+            var celsius = elementInput.value;
+
+            /* Räkna ut Farenheit: F = C * 9 / 5 + 32 */
+            var farenheit = celsius * 9 / 5 + 32;
+
+            /* Skriv ut temparetur i Farenheit */
+            elementP.textContent = farenheit + " grader i farenheit";
+            elementMeter.value = farenheit;
+        }
+    </script>
+</body>
+</html>

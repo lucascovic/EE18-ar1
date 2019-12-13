@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arbeta med DOM</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1 onclick="bytRubrik()">Klicka på mig!</h1>
+        <p onclick="bytText()">Klicka på mig</p>
+    </div>
+    <script>
+        /* Hitta element jag jobbar på */
+        const elementH = document.querySelector("h1");
+        const elementP = document.querySelector("p");
+
+
+        function bytRubrik() {
+            elementH.textContent = "Sankta Lucia";
+        }
+
+        function bytText() {
+            elementP.innerHTML = "Natten går tunga fjät," +
+                "runt gård och stuva. <br>" +
+                "Kring jord som sol’n förlät, <br>" +
+                "skuggorna ruva. <br>" +
+                "Då i vårt mörka hus, <br>" +
+                "stiger med tända ljus, <br>" +
+                "Sankta Lucia, Sankta Lucia." + "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Rarogi2_lGk\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>";
+        }
+    </script>
+</body>
+</html>

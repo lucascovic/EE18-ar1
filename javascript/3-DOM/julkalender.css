@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Pacifico|Satisfy&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styla kaladern */
+body {
+    background: url("../bilder/gran.jpg");
+}
+
+/* Knep för att få sidan i mitten av webbläsarfönstret */
+html, body {
+    height: 100%;
+}
+.mitten{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kontainer {
+    background: rgba(234, 70, 48, 0.884);
+    width: 700px;
+    margin: auto;
+    font-family: 'Courgette', cursive;
+    color: #fff;
+    text-align: center;
+}
+h1 {
+    font-size: 80px;
+    padding: 10px;
+}
+.kalender {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.ruta {
+    font-size: 30px;
+    background: #146B3A;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 1s;
+    
+}
+.ruta:hover {
+    background: rgb(49, 175, 104) no-repeat center;
+    box-shadow: 0 0 10px #fff;
+}
+
+.klapp1 {
+    font-size: 0;
+    background: url("../bilder/klapp1.jpg") center;
+    background-size: 80px 80px;
+    animation: tona 2s;
+    pointer-events: none;
+}
+.klappText{
+    font:12px sans-serif;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.185);
+    animation: tona 2s;
+    pointer-events: none;
+}   
+
+
+
+
+
+@keyframes tona {
+    from {
+        opacity: 0;
+    }
+
+
+    to {
+        opacity: 1;
+    }
+}
