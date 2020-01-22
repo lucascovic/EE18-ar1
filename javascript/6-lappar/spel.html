@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Åldersgränser i Sverige</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="spel.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>När då då?</h1>
+        
+        
+        <textarea cols="30" rows="10"></textarea>
+        <p>Ange ditt svar för att sedan få reda på om du har rätt/fel!</p>
+        <label>Gissa årtalet</label>
+        <input id="årtal" type="text">
+        <button id="skicka">Skicka</button>
+       
+        <h3>Poäng</h3>
+        <input id="poäng" type="text" readonly>
+
+        <h3>Svar</h3>
+        <i id="upp" class="fa fa-thumbs-up"></i>
+        <i id="ned" class="fa fa-thumbs-down" ></i>
+        <button id="nästa">Nästa Fråga &#8594;</button>
+
+    </div>
+    <script defer src="./spel.js"></script>
+</body>
+</html>
